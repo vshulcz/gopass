@@ -4,75 +4,70 @@ GoPass Manager is a lightweight, command-line tool for securely managing your pa
 
 ## Features
 
-    Secure Storage: Passwords are encrypted using AES-256 encryption.
-    Command-Line Interface: Manage your passwords directly from the terminal.
-    SQLite Database: All passwords are stored in a local SQLite database.
-    Master Key: Protects your encrypted data with a master key, which is generated automatically during the first run.
+Secure Storage: Passwords are encrypted using AES-256 encryption.
+Command-Line Interface: Manage your passwords directly from the terminal.
+SQLite Database: All passwords are stored in a local SQLite database.
+Master Key: Protects your encrypted data with a master key, which is generated automatically during the first run.
 
 ## Installation
-
-    Clone the repository:
-
-    ```bash
-    git clone https://github.com/vshulcz/gopass-manager.git
-    cd gopass-manager
-    ```
-
-    Install the application:
-
-    ```bash
-    make install
-    ```
-
-    This command will build the project and install the password-manager command globally, making it accessible from any directory in your terminal.
+Clone the repository:
+```bash
+git clone https://github.com/vshulcz/gopass-manager.git
+cd gopass-manager
+```
+Install the application:
+```bash
+make install
+```
+This command will build the project and install the password-manager command globally, making it accessible from any directory in your terminal.
 
 ## Usage
     
 ### Add a new password
 
-    To add a new password to the manager, use the add command:
+To add a new password to the manager, use the add command:
 
-    ```bash
-    gopass add [service]
-    ```
+```bash
+gopass add [service]
+```
 
-    You'll be prompted to enter the service name, username, and password.
+You'll be prompted to enter the service name, username, and password.
 
 ### Retrieve a password
 
-    To retrieve a password for a specific service, use the get command:
+To retrieve a password for a specific service, use the get command:
 
-    ```bash
-    gopass get [service]
-    ```
+```bash
+gopass get [service]
+```
 
-    You'll be prompted to enter the service name. The username and decrypted password will be displayed.
+You'll be prompted to enter the service name. The username and decrypted password will be displayed.
 
 ### List all stored passwords
 
-    To list all stored services with their usernames, use the list command:
+To list all stored services with their usernames, use the list command:
 
-    ```bash
-    gopass list
-    ```
+```bash
+gopass list
+```
 
 ### Delete a password
 
-    To delete a password from the manager, use the delete command:
+To delete a password from the manager, use the delete command:
 
-    ```bash
-    gopass delete [service]
-    ```
+```bash
+gopass delete [service]
+```
 
-    You'll be prompted to enter the service name, and the associated entry will be removed from the database.
+You'll be prompted to enter the service name, and the associated entry will be removed from the database.
 
 ## Uninstalling
 
-    If you ever need to remove the application, simply move to the project repository and run:
+If you ever need to remove the application, simply move to the project repository and run:
 
-    ```bash
-    make uninstall
-    ```
+```bash
+make uninstall
+```
 
 ## Master Key Management
 
