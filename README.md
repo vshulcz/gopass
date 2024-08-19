@@ -9,12 +9,12 @@ GoPass Manager is a lightweight, command-line tool for securely managing your pa
 * Master Key: Protects your encrypted data with a master key, which is generated automatically during the first run.
 
 ## Installation
-Clone the repository:
+1. Clone the repository:
 ```bash
-git clone https://github.com/vshulcz/gopass-manager.git
-cd gopass-manager
+git clone https://github.com/vshulcz/gopass.git
+cd gopass
 ```
-Install the application:
+2. Install the application:
 ```bash
 make install
 ```
