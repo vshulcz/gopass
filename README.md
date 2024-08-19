@@ -4,9 +4,9 @@ GoPass Manager is a lightweight, command-line tool for securely managing your pa
 
 ## Features
 
-Secure Storage: Passwords are encrypted using AES-256 encryption.
-Command-Line Interface: Manage your passwords directly from the terminal.
-Master Key: Protects your encrypted data with a master key, which is generated automatically during the first run.
+* Secure Storage: Passwords are encrypted using AES-256 encryption.
+* Command-Line Interface: Manage your passwords directly from the terminal.
+* Master Key: Protects your encrypted data with a master key, which is generated automatically during the first run.
 
 ## Installation
 Clone the repository:
